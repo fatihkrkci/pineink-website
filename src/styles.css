@@ -1,1 +1,258 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Multicolore-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url('./assets/fonts/multicolore/Multicolore.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Thin';
+  font-style: thin;
+  font-weight: 100;
+  src: url('./assets/fonts/montserrat/Montserrat-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ThinItalic';
+  font-style: thinItalic;
+  font-weight: 100;
+  src: url('./assets/fonts/montserrat/Montserrat-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+  font-style: extraLight;
+  font-weight: 200;
+  src: url('./assets/fonts/montserrat/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLightItalic';
+  font-style: extraLightItalic;
+  font-weight: 200;
+  src: url('./assets/fonts/montserrat/Montserrat-ExtraLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  font-style: light;
+  font-weight: 300;
+  src: url('./assets/fonts/montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-LightItalic';
+  font-style: lightItalic;
+  font-weight: 300;
+  src: url('./assets/fonts/montserrat/Montserrat-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: regular;
+  font-weight: 400;
+  src: url('./assets/fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./assets/fonts/montserrat/Montserrat-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  font-style: medium;
+  font-weight: 500;
+  src: url('./assets/fonts/montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-MediumItalic';
+  font-style: mediumItalic;
+  font-weight: 500;
+  src: url('./assets/fonts/montserrat/Montserrat-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  font-style: semiBold;
+  font-weight: 600;
+  src: url('./assets/fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBoldItalic';
+  font-style: semiBoldItalic;
+  font-weight: 600;
+  src: url('./assets/fonts/montserrat/Montserrat-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url('./assets/fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-BoldItalic';
+  font-style: boldItalic;
+  font-weight: 700;
+  src: url('./assets/fonts/montserrat/Montserrat-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  font-style: extraBold;
+  font-weight: 800;
+  src: url('./assets/fonts/montserrat/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBoldItalic';
+  font-style: extraBoldItalic;
+  font-weight: 800;
+  src: url('./assets/fonts/montserrat/Montserrat-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Black';
+  font-style: black;
+  font-weight: 900;
+  src: url('./assets/fonts/montserrat/Montserrat-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat-BlackItalic';
+  font-style: blackItalic;
+  font-weight: 900;
+  src: url('./assets/fonts/montserrat/Montserrat-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  font-style: thin;
+  font-weight: 100;
+  src: url('./assets/fonts/poppins/Poppins-Thin.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-ThinItalic';
+  font-style: thinItalic;
+  font-weight: 100;
+  src: url('./assets/fonts/poppins/Poppins-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLight';
+  font-style: extraLight;
+  font-weight: 200;
+  src: url('./assets/fonts/poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraLightItalic';
+  font-style: extraLightItalic;
+  font-weight: 200;
+  src: url('./assets/fonts/poppins/Poppins-ExtraLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  font-style: light;
+  font-weight: 300;
+  src: url('./assets/fonts/poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-LightItalic';
+  font-style: lightItalic;
+  font-weight: 300;
+  src: url('./assets/fonts/poppins/Poppins-LightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: regular;
+  font-weight: 400;
+  src: url('./assets/fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./assets/fonts/poppins/Poppins-Italic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  font-style: medium;
+  font-weight: 500;
+  src: url('./assets/fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-MediumItalic';
+  font-style: mediumItalic;
+  font-weight: 500;
+  src: url('./assets/fonts/poppins/Poppins-MediumItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  font-style: semiBold;
+  font-weight: 600;
+  src: url('./assets/fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBoldItalic';
+  font-style: semiBoldItalic;
+  font-weight: 600;
+  src: url('./assets/fonts/poppins/Poppins-SemiBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  font-style: bold;
+  font-weight: 700;
+  src: url('./assets/fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-BoldItalic';
+  font-style: boldItalic;
+  font-weight: 700;
+  src: url('./assets/fonts/poppins/Poppins-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  font-style: extraBold;
+  font-weight: 800;
+  src: url('./assets/fonts/poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBoldItalic';
+  font-style: extraBoldItalic;
+  font-weight: 800;
+  src: url('./assets/fonts/poppins/Poppins-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Black';
+  font-style: black;
+  font-weight: 900;
+  src: url('./assets/fonts/poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-BlackItalic';
+  font-style: blackItalic;
+  font-weight: 900;
+  src: url('./assets/fonts/poppins/Poppins-BlackItalic.ttf');
+}
