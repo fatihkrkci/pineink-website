@@ -13,8 +13,13 @@
   padding-bottom: 0.5rem;
 }
 
-.bi {
+.bi{
   fill: #fff;
+}
+
+.bi-search-heart {
+  color: #fff;
+  margin-right: 0.5rem;
 }
 
 .small {
