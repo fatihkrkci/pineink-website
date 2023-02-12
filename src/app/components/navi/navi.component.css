@@ -1,5 +1,6 @@
 #mainNav {
   height: 10%;
+  background-color: #000;
 }
 
 .navbar {
@@ -13,12 +14,7 @@
 }
 
 .bi {
-  color: #000;
-  margin-right: 0.5rem;
-}
-
-.bi-discover {
-  color: #fff;
+  fill: #fff;
 }
 
 .small {
@@ -145,11 +141,9 @@
 
 .nav-link {
   text-decoration: none;
-  font-family: Montserrat;
-  font-size: medium;
-  font-weight: bold;
-  color: #000 !important;
-  background-color: #000;
+  font-family: Montserrat-Bold;
+  color: #fff !important;
+  background-color: #fff;
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -189,10 +183,10 @@
 .navbar-toggler {
   font-size: 1.25rem;
   font-family: Poppins-Regular;
-  color: #000 !important;
+  color: #fff !important;
   padding: 0.25rem 0.75rem;
   background-color: transparent;
-  border: 2px solid #000 !important;
+  border: 2px solid #fff !important;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
 }
