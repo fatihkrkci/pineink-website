@@ -1,5 +1,5 @@
 #mainNav {
-  height: 10%;
+  min-height: 10vh;
   background-color: #000;
 }
 
@@ -184,6 +184,14 @@
 /* .nav-link.active {
 
 } */
+
+.border-bottom {
+  border-bottom: 4px solid !important;
+  -moz-border-image: -moz-linear-gradient(45deg, #2937f0, #9f1ae2);
+  -webkit-border-image: -webkit-linear-gradient(45deg, #2937f0, #9f1ae2);
+  border-image: linear-gradient(45deg, #2937f0, #9f1ae2);
+  border-image-slice: 1;
+}
 
 .navbar-toggler {
   font-size: 1.25rem;
