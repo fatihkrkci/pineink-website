@@ -14,7 +14,6 @@ import { AboutUsComponent } from './components/home-page/components/about-us/abo
 import { FeaturesComponent } from './components/home-page/components/features/features.component';
 import { FaqComponent } from './components/home-page/components/faq/faq.component';
 import { DownloadAppComponent } from './components/home-page/components/download-app/download-app.component';
-import { ThemeToggleComponent } from './theme/components/theme-toggle/theme-toggle.component';
 
 @NgModule({
   declarations: [
@@ -29,8 +28,7 @@ import { ThemeToggleComponent } from './theme/components/theme-toggle/theme-togg
     AboutUsComponent,
     FeaturesComponent,
     FaqComponent,
-    DownloadAppComponent,
-    ThemeToggleComponent
+    DownloadAppComponent
   ],
   imports: [
     BrowserModule,
