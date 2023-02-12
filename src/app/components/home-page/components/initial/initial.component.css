@@ -185,12 +185,11 @@ h1{
     display: flex;
 }
 
-h2, .h2 {
+h2 {
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Montserrat;
-    font-weight: 600;
+    font-family: Montserrat-SemiBold;
     line-height: 1.5;
     color: #ffffff;
-    font-size: x-large !important;
+    font-size: 1.25rem;
 }
