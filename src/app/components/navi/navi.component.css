@@ -13,23 +13,24 @@
   padding-bottom: 0.5rem;
 }
 
-.bi{
-  fill: #fff;
-}
-
 .bi-search-heart {
   color: #fff;
   margin-right: 0.5rem;
 }
 
-.small {
-  color: #fff;
-  font-family: Poppins-Regular;
+button:active .bi-search-heart {
+  color: #000;
 }
 
 .btn {
   border: 0;
+  color: #fff;
+  font-family: Poppins-Regular;
   background-image: linear-gradient(45deg, #2937f0, #9f1ae2);
+}
+
+button:active .btn {
+  color: #000;
 }
 
 .navbar > .container,
