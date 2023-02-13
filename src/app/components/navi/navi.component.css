@@ -3,6 +3,10 @@
   background-color: #000;
 }
 
+.fixed-top {
+  position: fixed !important;
+}
+
 .navbar {
   position: relative;
   display: flex;
