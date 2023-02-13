@@ -1,0 +1,22 @@
+#download-app {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+}
+
+.bg-gradient-primary-to-secondary {
+    background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Montserrat-SemiBold;
+    line-height: 1.5;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+.app-badge {
+    height: 3rem;
+}
